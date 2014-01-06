@@ -1,0 +1,22 @@
+{
+    "name": "ideasonpurpose/instagram-explorer",
+    "description": "Components for the Instagram visualizer",
+    "require": {
+        "instagram": "api"
+    },
+    "authors": [
+        {
+            "name": "Joe Maller",
+            "email": "joe@ideasonpurpose.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Feed": "src/"
+        }
+    }
+}
