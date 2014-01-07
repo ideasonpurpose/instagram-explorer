@@ -18,7 +18,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Feed": "src/"
+            "Feed": "src/",
+            "ig": "src/"
         }
     }
 }
