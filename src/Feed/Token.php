@@ -4,6 +4,14 @@ namespace Feed;
 
 class Token
 {
+    /**
+     * Requests an access token from Instagram
+     */
+    public static function request()
+    {
+        // stub, should replace the ig_auth file?
+    }
+
     public static function cacheAccessToken()
     {
         if (isset($_SESSION['instagram_access_token'])) {
@@ -19,7 +27,8 @@ class Token
         }
     }
 
-    public static function getAccessToken() {
+    public static function getAccessToken()
+    {
         $access_token = false;
 
         try {
@@ -35,5 +44,4 @@ class Token
 
         return $access_token;
     }
-
 }
