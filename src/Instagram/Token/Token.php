@@ -1,6 +1,6 @@
 <?php
 
-namespace Feed;
+namespace IOP\Instagram\Token;
 
 class Token
 {
